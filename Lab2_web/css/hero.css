@@ -1,0 +1,61 @@
+.title {
+    padding: 50px 0px;
+}
+
+.title__heading {
+    color: #202336;
+    font-size: 75px;
+}
+
+.title__text {
+    font-family: 'Inter', sans-serif;
+    color: #202336;
+    margin-top: 85px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.title__line {
+    width: 45px;
+    height: 3px;
+    background-color: #202336;
+    margin-top: 20px;
+}
+
+form select {
+    width: 185px;
+    height: 52px;
+    border-radius: 8px;
+    border-color: #B8BECD;
+    font-family: 'Inter', sans-serif;
+    color: #4A4C53;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+.form {
+    padding: 0 30px;
+    font-size: 15px;
+}
+
+.title__button {
+    width: 135px;
+    height: 40px;
+    border: 1px;
+    border-color: #FB8F1D;
+    background-color: #FB8F1D;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 35px;
+    list-style: none;
+}
+
+.title__button:hover{
+    color: #FFFFFF;
+}

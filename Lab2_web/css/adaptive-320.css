@@ -1,0 +1,136 @@
+@media only screen and (max-width: 320px) {
+
+    .menu__item {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 135px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .title__heading {
+        font-size: 195px;
+        margin-left: 115px;
+    }
+
+    .title__text {
+        font-size: 42px;
+        margin-bottom: 35px;
+        margin-left: 141px;
+        width: 284px;
+    }
+
+    .title__line {
+        width: 60px;
+        margin-left: 140px;
+    }
+
+    .title__form {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .title__form select {
+        width: 435px;
+        height: 85px;
+        font-size: 45px;
+        display: flex;
+        margin-left: 140px;
+        margin-right: -85px;
+    }
+
+    .title__button {
+        margin-left: 125px;
+        font-size: 50px;
+        width: 365px;
+        height: 115px;
+        margin-top: 85px;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .section-2 {
+        width: 1125px;
+    }
+
+    .image {
+        width: 955px;
+        height: 795px;
+        margin-top: 30px;
+    }
+
+
+    .about__title {
+        width: 735px;
+        font-size: 120px;
+        font-weight: 700;
+        line-height: 110px;
+    }
+
+    .about__text {
+        line-height: 115px;
+        font-size: 53px;
+        width: 715px;
+        margin-top: 350px;
+    }
+
+    .about__button {
+        width: 245px;
+        height: 85px;
+        font-size: 36px;
+        margin-top: 50px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .view__title {
+        font-size: 80px;
+        font-weight: 700;
+        width: 850px;
+        margin-left: 145px;
+    }
+
+    .view__button {
+        display: none;
+    }
+
+    .view-img {
+        width: 815px;
+        height: 1125px;
+        margin-top: 60px;
+    }
+
+    .image-pack {
+        display: flex;
+        flex-direction: column;
+        margin-left: 135px;
+    }
+
+    .footer {
+        width: 1125px
+    }
+
+    .footer p {
+        margin-left: 275px;
+        font-size: 30px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__images img {
+        padding: 5px 10px;
+    }
+
+    .footer-img {
+        width: 100px;
+        height: 65px;
+    }
+}
