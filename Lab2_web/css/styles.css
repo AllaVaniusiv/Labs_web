@@ -1,0 +1,13 @@
+@import "./globals.css";
+
+@import "./header.css";
+
+@import "./hero.css"; 
+
+@import "./block.css";
+
+@import "./footer.css";
+
+@import "./adaptive-320.css";
+
+@import "./adaptive-4k.css";

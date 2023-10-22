@@ -1,0 +1,35 @@
+.footer {
+    background-color: #F8F8F8;
+    margin-top: 100px;
+}
+
+.footer p {
+    margin-top: 30px;
+    margin-left: 290px;
+    color: #848484;
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+}
+
+.footer__logo {
+    margin-top: 17px;
+}
+
+.footer__line {
+    width: 1115px;
+    height: 1.5px;
+    background-color: #C4C4C4;
+    margin-top: 20px;
+}
+
+.footer__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.footer__images img {
+    padding: 0 15px;
+}

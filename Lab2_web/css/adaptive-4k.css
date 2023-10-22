@@ -1,0 +1,152 @@
+@media only screen and (min-width: 2560px) {
+    .container {
+        max-width: 1625px;
+    }
+
+    .logo {
+        width: 85px;
+        height: 85px;
+        margin-top: 10px;
+    }
+
+    .main-header {
+        display: flex;
+        align-items: center;
+        margin-right: 360px;
+    }
+
+    .menu__item {
+        font-size: 35px;
+        padding: 25px;
+    }
+
+    .menu__item:first-of-type a {
+        font-size: 35px;
+    }
+
+    .menu__item:nth-of-type(5) a {
+        padding: 10px 55px;
+    }
+
+    .menu__item:last-of-type a {
+        padding: 11px 35px;
+    }
+
+    .title {
+        margin-left: -170px;
+    }
+
+    .hero-image {
+        width: 1027px;
+        height: 994px;
+        margin-left: 170px;
+    }
+
+    .title__heading {
+        font-size: 120px;
+    }
+
+    .title__text {
+        font-size: 28px;
+    }
+
+    .title__form {
+        margin-top: 30px;
+    }
+
+    .title__form select {
+        width: 285px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .title__button {
+        margin-top: 55px;
+        font-size: 28px;
+        width: 210px;
+        height: 70px;
+    }
+
+    .section-2 {
+        margin-top: 250px;
+    }
+
+    .about__title {
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    .about__text {
+        font-size: 35px;
+        margin-top: 135px;
+        line-height: 50px;
+    }
+
+    .about__button {
+        width: 210px;
+        height: 65px;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .image {
+        width: 859px;
+        height: 734px;
+        margin-left: -225px;
+        margin-top: 75px;
+    }
+
+    .view__title {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .view__button {
+        font-size: 23px;
+        margin-left: 675px;
+    }
+
+    .image-pack {
+        margin-top: 100px;
+    }
+
+
+    .view-img {
+        width: 360px;
+        height: 515px;
+
+    }
+
+    .arrow {
+        width: 13px;
+        height: 15px;
+        fill: none;
+    }
+
+    .footer__logo {
+        margin-top: 25px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .footer__line {
+        width: 1600px;
+        margin-top: 50px;
+    }
+
+    .footer p {
+        margin-top: 53px;
+        margin-left: 395px;
+        font-size: 20px;
+    }
+
+    .footer-img {
+        width: 90px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+}
