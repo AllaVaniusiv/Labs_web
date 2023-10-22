@@ -1,0 +1,9 @@
+@import "./globals.css";
+
+@import "./header.css";
+
+@import "./hero.css"; 
+
+@import "./block.css";
+
+@import "./footer.css";
