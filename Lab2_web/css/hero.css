@@ -54,8 +54,23 @@ form select {
     font-weight: 600;
     margin-top: 35px;
     list-style: none;
+    animation: pulse-animation 1s infinite;
 }
 
-.title__button:hover{
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.title__button:hover {
     color: #FFFFFF;
 }

@@ -43,3 +43,22 @@
     border: 1px solid #FB8F1D;
     padding: 11px 25px;
 }
+
+.nav-toggle {
+    font-size: 2rem;
+}
+
+.burger-icon {
+    display: inline-block;
+    height: 3em;
+    vertical-align: -0.125em;
+    cursor: pointer;
+    position: fixed;
+    right: 110px;
+}
+
+@media only screen and (min-width: 800px) {
+    .burger-icon {
+        display: none;
+    }
+}

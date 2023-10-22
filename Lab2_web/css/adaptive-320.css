@@ -133,4 +133,9 @@
         width: 100px;
         height: 65px;
     }
+
+    .burger-icon {
+        margin-top: -105px;
+        z-index: 1;
+    }
 }
