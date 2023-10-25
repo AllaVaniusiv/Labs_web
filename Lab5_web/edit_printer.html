@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Mooli&family=Mulish&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Raleway&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
+</head>
+
+<body>
+  <div class="container">
+    <h1>Edit Printer</h1>
+    <input type="text" id="edit-printer-name" placeholder="Printer Name" />
+    <input type="text" id="edit-printer-type" placeholder="Type" />
+    <input type="number" id="edit-printer-paperTrayCapacity" placeholder="PaperTrayCapacity" min="0" />
+    <button id="save-edited-printer" onclick="saveEditedPrinter()">Save Changes</button>
+    <button id="cancel-edit" onclick="cancelEdit()">Cancel</button>
+  </div>
+
+
+
+  <script>let printerIdToEdit = null;
+
+    function loadPrinterToEdit() {
+      const urlParams = new URLSearchParams(window.location.search);
+      printerIdToEdit = urlParams.get('id');
+
+      if (printerIdToEdit !== null) {
+        fetch(`http://localhost:5000/printers/${printerIdToEdit}`)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('edit-printer-name').value = data.printer.name;
+            document.getElementById('edit-printer-type').value = data.printer.type;
+            document.getElementById('edit-printer-paperTrayCapacity').value = data.printer.paperTrayCapacity;
+          })
+          .catch(error => console.error('Error loading printer to edit:', error));
+      } else {
+        alert('Invalid printer ID.');
+      }
+    }
+
+    function saveEditedPrinter() {
+      const name = document.getElementById('edit-printer-name').value;
+      const type = document.getElementById('edit-printer-type').value;
+      const paperTrayCapacity = parseFloat(document.getElementById('edit-printer-paperTrayCapacity').value);
+
+
+      if (type && !isNaN(paperTrayCapacity) && paperTrayCapacity >= 0 && name) {
+        const editedPrinter = {
+          'name': name,
+          'type': type,
+          'paperTrayCapacity': paperTrayCapacity
+        };
+
+        fetch(`http://localhost:5000/printers/${printerIdToEdit}`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(editedPrinter)
+        })
+          .then(response => response.json())
+          .then(data => {
+            window.location.href = 'main.html';
+          })
+          .catch(error => console.error('Error saving edited printer:', error));
+      } else {
+        alert('Invalid input. Please provide valid printer name, type, and paperTrayCapacity.');
+      }
+    }
+
+    loadPrinterToEdit();
+
+    function cancelEdit() {
+      window.location.href = 'main.html';
+    }
+
+
+  </script>
+</body>
+
+</html>

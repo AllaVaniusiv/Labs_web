@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Mooli&family=Mulish&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Raleway&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
+</head>
+
+<body>
+  <div class="container">
+    <h1>Add a Printer</h1>
+    <input type="text" id="add-printer-name" placeholder="Printer Name" />
+    <input type="text" id="add-printer-type" placeholder="Type" />
+    <input type="number" id="add-printer-paperTrayCapacity" placeholder="PaperTrayCapacity" min="0" />
+    <button id="save-new-printer" onclick="saveNewPrinter()">Save Printer</button>
+    <button id="cancel-add" onclick="cancelAdd()">Cancel</button>
+  </div>
+
+  <script>
+    function saveNewPrinter() {
+      const name = document.getElementById('add-printer-name').value;
+      const type = document.getElementById('add-printer-type').value;
+      const paperTrayCapacity = parseFloat(document.getElementById('add-printer-paperTrayCapacity').value);
+
+      if (type && !isNaN(paperTrayCapacity) && paperTrayCapacity >= 0 && name) {
+        const newPrinter = {
+          'name': name,
+          'type': type,
+          'paperTrayCapacity': paperTrayCapacity
+        };
+
+        fetch('http://localhost:5000/printers', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(newPrinter)
+        })
+          .then(response => response.json())
+          .then(data => {
+            window.location.href = 'main.html';
+          })
+          .catch(error => console.error('Error saving new printer:', error));
+      } else {
+        alert('Invalid input. Please provide valid printer name, type, and paperTrayCapacity.');
+      }
+    }
+
+    function cancelAdd() {
+      window.location.href = 'main.html';
+    }
+
+
+  </script>
+</body>
+
+</html>

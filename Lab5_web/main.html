@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Mooli&family=Mulish&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Raleway&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
+</head>
+
+<body>
+  <div class="container">
+    <h1>Printers</h1>
+    <input type="text" id="search" placeholder="Search by Name" />
+    <button id="sort">Sort by name</button>
+    <button id="calculate">Calculate paper</button>
+    <button id="add-printer" onclick="redirectToAddPage()">Add Printer</button>
+    <button id="cancel" onclick="resetPage()">Cancel</button>
+    <div id="total-paper">Total Paper: </div>
+    <div id="main"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

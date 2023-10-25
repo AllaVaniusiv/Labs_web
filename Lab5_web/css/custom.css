@@ -1,0 +1,108 @@
+#sort {
+    color: white;
+    border: 1px solid #9d5bea;
+    border-radius: 8px;
+    background: #b18cda;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#calculate {
+    color: white;
+    border: 1px solid #9d5bea;
+    border-radius: 8px;
+    background: #b18cda;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#add-printer {
+    color: white;
+    border: 1px solid #4a95c7;
+    border-radius: 8px;
+    background: #4fa1bc;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#total-paper {
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+}
+
+.edit-button {
+    color: white;
+    border: 1px solid #7aeac9;
+    border-radius: 8px;
+    background: #5ac4b7;
+    padding: 5px 10px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+.remove-button {
+    color: white;
+    border: 1px solid #d14a67;
+    border-radius: 8px;
+    background: #bc5862;
+    padding: 5px 10px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#save-edited-printer {
+    color: white;
+    border: 1px solid #9d5bea;
+    border-radius: 8px;
+    background: #b18cda;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#save-new-printer {
+    color: white;
+    border: 1px solid #9d5bea;
+    border-radius: 8px;
+    background: #b18cda;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#cancel-add {
+    color: white;
+    border: 1px solid #891f3f;
+    border-radius: 8px;
+    background: #c62654;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#cancel-edit {
+    color: white;
+    border: 1px solid #891f3f;
+    border-radius: 8px;
+    background: #c62654;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+#cancel {
+    color: white;
+    border: 1px solid #891f3f;
+    border-radius: 8px;
+    background: #c62654;
+    padding: 5px 15px;
+    font-family: 'PlayfairDisplay';
+    font-weight: 600;
+}
+
+.printer {
+    padding: 5px;
+}
