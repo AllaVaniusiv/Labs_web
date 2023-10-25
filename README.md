@@ -4,4 +4,6 @@
 ### Лабораторна робота №2 ' Advanced landing ' силка  "https://github.com/AllaVaniusiv/Labs_web/pull/2"
 ### Лабораторна робота №3 ' CRUD Javascript App: View Page ' силка "https://github.com/AllaVaniusiv/Labs_web/pull/3"
 ### Лабораторна робота №4 ' CRUD Javascript App: Create/Edit Pages ' силка "https://github.com/AllaVaniusiv/Labs_web/pull/4"
+### Лабораторна робота №5 ' CRUD Javascript App: Backend ' силка "https://github.com/AllaVaniusiv/Labs_web/pull/5"
+
 
