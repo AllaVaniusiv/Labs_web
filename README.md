@@ -7,5 +7,6 @@
 ### Лабораторна робота №5 ' CRUD Javascript App: Backend ' силка "https://github.com/AllaVaniusiv/Labs_web/pull/5"
 ### Лабораторна робота №6 ' React.js: Home page ' силка "https://github.com/AllaVaniusiv/Labs_web/pull/8"
 ### Лабораторна робота №7 ' React.js: Catalog page ' силка "https://github.com/AllaVaniusiv/Labs_web/pull/9"
+### Лабораторна робота №8 ' React.js: Item page ' силка "https://github.com/AllaVaniusiv/Labs_web/pull/10"
 
 
