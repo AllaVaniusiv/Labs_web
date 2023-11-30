@@ -8,4 +8,4 @@
 ### Лабораторна робота №6 ' React.js: Home page ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/8)
 ### Лабораторна робота №7 ' React.js: Catalog page ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/9)
 ### Лабораторна робота №8 ' React.js: Item page ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/10)
-### Лабораторна робота №8 ' React.js: Item page ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/11)
+### Лабораторна робота №9 ' React.js: Item page ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/11)
