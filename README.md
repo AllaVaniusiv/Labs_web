@@ -9,3 +9,4 @@
 ### Лабораторна робота №7 ' React.js: Catalog page ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/9)
 ### Лабораторна робота №8 ' React.js: Item page ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/10)
 ### Лабораторна робота №9 ' React.js: Connecting to REST API ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/11)
+### Лабораторна робота №10 ' React.js: Redux: Cart page (shopping cart) ' посилання [тут](https://github.com/AllaVaniusiv/Labs_web/pull/12)
