@@ -32,6 +32,8 @@ const Catalog = () => {
     const [reverseSort, setReverseSort] = useState(false);
     const [loading, setLoading] = useState(false);
 
+
+
     useEffect(() => {
         setLoading(true);
         getPrinters({
